@@ -5,14 +5,13 @@
 Summary:	Helpful functions for Python
 Summary(pl.UTF-8):	Przydatne funkcje dla Pythona
 Name:		python3-domdf-python-tools
-Version:	3.6.1
+Version:	3.9.0
 Release:	1
 License:	MIT
 Group:		Libraries/Python
 #Source0Download: https://pypi.org/simple/domdf-python-tools/
 Source0:	https://files.pythonhosted.org/packages/source/d/domdf-python-tools/domdf_python_tools-%{version}.tar.gz
-# Source0-md5:	4e729ee6addc3d6bfeb72c934340a7e0
-Patch0:		domdf_python_tools-deps.patch
+# Source0-md5:	ab1984c8d939bf907a2ff0651b5b1944
 URL:		https://pypi.org/project/domdf-python-tools/
 BuildRequires:	python3-modules >= 1:3.6
 BuildRequires:	python3-setuptools >= 1:40.6.0
@@ -46,7 +45,6 @@ Przydatne funkcje dla Pythona.
 
 %prep
 %setup -q -n domdf_python_tools-%{version}
-%patch0 -p1
 
 %build
 %py3_build

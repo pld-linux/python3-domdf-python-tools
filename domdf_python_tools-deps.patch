@@ -1,8 +1,0 @@
---- domdf_python_tools-3.6.1/requirements.txt.orig	2023-04-14 13:35:21.000000000 +0200
-+++ domdf_python_tools-3.6.1/requirements.txt	2023-10-19 20:32:19.171143934 +0200
-@@ -1,4 +1,4 @@
- importlib-metadata>=3.6.0; python_version < "3.9"
- importlib-resources>=3.0.0; python_version < "3.7"
- natsort>=7.0.1
--typing-extensions>=3.7.4.1
-+typing-extensions>=3.7.4.1; python_version < "3.8"
