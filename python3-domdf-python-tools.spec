@@ -6,7 +6,7 @@ Summary:	Helpful functions for Python
 Summary(pl.UTF-8):	Przydatne funkcje dla Pythona
 Name:		python3-domdf-python-tools
 Version:	3.9.0
-Release:	1
+Release:	2
 License:	MIT
 Group:		Libraries/Python
 #Source0Download: https://pypi.org/simple/domdf-python-tools/
